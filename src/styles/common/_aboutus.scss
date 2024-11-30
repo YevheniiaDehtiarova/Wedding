@@ -46,6 +46,7 @@
             font-family: $font-main;
             color: $color-light;
             border: none;
+            position: inherit;
 
             &:hover {
                 background: $color-light;

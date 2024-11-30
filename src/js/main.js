@@ -25,6 +25,26 @@ squares.forEach(square => {
     });
 });
 
+//courses-description page navigation
+const courses = document.querySelectorAll('#course-list li');
+
+function navigateToCourse(courseId) {
+    const courseDescription = document.getElementById(courseId);
+    if (courseDescription) {
+        courseDescription.scrollIntoView({
+            behavior: 'smooth', 
+            block: 'start' 
+        });
+    }
+}
+
+courses.forEach(course => {
+    course.addEventListener('click', () => {
+        const courseId = course.getAttribute('data-course');
+        navigateToCourse(courseId);
+    });
+});
+
 
 const tabButtons = document.querySelectorAll('.tab-button');
 tabButtons.forEach(button => {
@@ -58,7 +78,7 @@ const cards = document.querySelectorAll('.results__cards-card');
         });
     });
 
-
+//burger script
 const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
 const headerWrapper = document.querySelector('.header-wrapper')
 

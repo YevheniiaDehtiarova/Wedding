@@ -1,2 +1,2 @@
-# Wedding
-https://evgeniyadegtyarova.github.io/Wedding/
+# Belyaevi project
+https://yevheniiadehtiarova.github.io/Belyaevi-project/

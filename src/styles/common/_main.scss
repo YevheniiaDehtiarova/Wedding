@@ -16,6 +16,7 @@
  button,
  a {
      transition: all 0.3s ease;
+     position:  inherit;
  }
 
  button:hover,
@@ -26,11 +27,11 @@
 
  a {
      text-decoration: none;
-     color: black;
+     color: $dark-brown;
  }
 
  a:hover {
-     border-bottom: 1px solid black;
+     border-bottom: 1px solid $dark-brown;
  }
 
  ul,
